@@ -1340,7 +1340,7 @@ img.pull-right {
 
 .ts-exp-wrap {
   background: #1c1a4f;
-  min-height: 480px;
+  min-height: 550px;
   position: relative; }
   .ts-exp-wrap:before {
     position: absolute;
