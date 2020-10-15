@@ -1218,8 +1218,8 @@ img.pull-right {
     width: 50px;
     height: 50px;
     margin: auto;
-    border: 2px solid #ddd;
-    border-radius: 50%;
+/*    border: 2px solid #ddd;
+    border-radius: 50%;*/
     -webkit-border-radius: 50%;
     -ms-border-radius: 50%;
     padding: 12px 0;
@@ -1294,7 +1294,8 @@ img.pull-right {
 .ts-speaker-popup {
   background: #fff;
   padding: 0;
-  position: relative; }
+  position: relative; 
+  border-radius: 25px;}
   .ts-speaker-popup .ts-speaker-popup-img img {
     width: 100%; }
   .ts-speaker-popup .ts-speaker-popup-content {
@@ -1324,6 +1325,10 @@ img.pull-right {
         color: #e7015e; }
   .ts-speaker-popup button.mfp-close {
     font-size: 30px; }
+
+      .ts-speakers-social {
+    font-size: 20px;
+  }
 
 /*==========================
      ts-experiences
