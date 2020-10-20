@@ -1794,10 +1794,34 @@ img.pull-right {
   background: #3b1d82;
 }
 .ts-experiences .exp-img {
-  min-height: 480px;
+  min-height: 501px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  transition: 1.2s;
+}
+.ts-experiences .exp-img:hover{
+  transform: scale(1.05);
+  z-index: auto;
+}
+.ts-experiences .exp-img-2{
+  height: 670px;
+  transition: 1.2s;
+  
+}
+.ts-experiences .exp-img:hover{
+  transform: scale(1.05);
+  z-index: auto;
+}
+.img-fluid-2{
+  height: 670px;
+  width: 760px;
+
+}
+.img-fluid-3{
+  height: 501px;
+  width: 760px;
+  
 }
 
 .ts-exp-wrap {
@@ -3172,6 +3196,11 @@ img.pull-right {
 .ts-single-funfact {
   padding-right: 100px;
   position: relative;
+  transition: 1s;
+}
+.ts-single-funfact:hover{
+  transform: scale(1.2);
+  z-index: 1.5;
 }
 .ts-single-funfact:before {
   position: absolute;
