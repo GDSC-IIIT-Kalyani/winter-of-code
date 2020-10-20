@@ -1363,8 +1363,8 @@ img.pull-right {
     background-image: linear-gradient(90deg, #321575 0%, #8d0b93 51%, #ff0066 100%, #ff057c 100%);
     opacity: 0.302; }
   .ts-exp-wrap .ts-exp-content {
-    max-width: 560px;
-    padding: 100px 80px;
+    max-width: 550px;
+    padding: 10px 80px;
     position: relative;
     z-index: 1; }
     .ts-exp-wrap .ts-exp-content .column-title {
