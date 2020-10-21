@@ -2,11 +2,11 @@
 	Template Name: exhibz
 	Author: Themewinter
 	Author URI: https://themeforest.net/user/tripples
-	Description: Exhibz conference html template. 
+	Description: Exhibz conference html template.
   Version: 1.1
 
 =====================
-   table of content 
+   table of content
 ====================
 
 1.   Typography
@@ -16,19 +16,19 @@
 5    intro area
 6.   ts speakers area
 7.   experiyence area
-8.   schedule area 
-9.   pricing area 
-10.  blog area 
-11.  sponsros area 
-12.  map direction area 
-13.  newsletter area 
-14.  footer area 
-15.  funfact area 
-16.  contact area 
-17.  blog details area 
-18.  about area 
-19.  faq area 
-20.  404  
+8.   schedule area
+9.   pricing area
+10.  blog area
+11.  sponsros area
+12.  map direction area
+13.  newsletter area
+14.  footer area
+15.  funfact area
+16.  contact area
+17.  blog details area
+18.  about area
+19.  faq area
+20.  404
 */
 /*
 	Template Name: Exhibit -  Conference & Event HTML Template
@@ -44,7 +44,7 @@
 3.  Header area
 4.	Banner area
 
-	
+
 */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
@@ -452,7 +452,7 @@ img.pull-right {
 }
 .btn:hover {
   color: #fff;
-  background: #d20055;
+  background: #00d089;
   -webkit-box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.15);
 }
@@ -1015,6 +1015,7 @@ img.pull-right {
   height: 55px;
   line-height: 55px;
   padding: 0 55px;
+  border-radius: 20px;
 }
 .banner-item .banner-content-wrap .banner-btn .btn.fill {
   padding: 0 25px;
@@ -1807,7 +1808,7 @@ img.pull-right {
 .ts-experiences .exp-img-2{
   height: 670px;
   transition: 1.2s;
-  
+
 }
 .ts-experiences .exp-img:hover{
   transform: scale(1.05);
@@ -1821,7 +1822,7 @@ img.pull-right {
 .img-fluid-3{
   height: 501px;
   width: 760px;
-  
+
 }
 
 .ts-exp-wrap {
@@ -1914,7 +1915,7 @@ img.pull-right {
 }
 
 /*============================
- ts schedule 
+ ts schedule
  ===========================*/
 .ts-schedule-info {
   position: relative;
@@ -3184,7 +3185,7 @@ img.pull-right {
 }
 
 /*==================================
-   ts funfact 
+   ts funfact
  ==================================*/
 .ts-funfact {
   background-repeat: no-repeat;
@@ -4217,7 +4218,7 @@ faq-item
 }
 
 /* =================
-// Exprience 
+// Exprience
 =====================*/
 .ts-exprience {
   position: relative;
@@ -4737,7 +4738,7 @@ address a:hover {
  .socialinsta {
      -webkit-transform: scale(0.8);
      color: #e9e0e0;
-     
+
  }
  .socialface:hover {
      -webkit-transform: scale(1.0);
@@ -4747,7 +4748,7 @@ address a:hover {
  .socialface {
      -webkit-transform: scale(0.8);
      color: #e9e0e0;
-     
+
  }
  .socialtwit:hover {
      -webkit-transform: scale(1.0);
@@ -4757,7 +4758,7 @@ address a:hover {
  .socialtwit {
      -webkit-transform: scale(0.8);
      color: #e9e0e0;
-     
+
  }
  .sociallink:hover {
      -webkit-transform: scale(1.0);
@@ -4767,7 +4768,7 @@ address a:hover {
  .sociallink {
      -webkit-transform: scale(0.8);
      color: #e9e0e0;
-     
+
  }
  .socialtext:hover {
      -webkit-transform: scale(1.0);
@@ -4777,7 +4778,7 @@ address a:hover {
  .socialtext {
      -webkit-transform: scale(0.8);
      color: #e9e0e0;
-     
+
  }
 .btn_1 {
     display: inline-block;
