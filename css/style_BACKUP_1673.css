@@ -4787,35 +4787,39 @@ address a:hover {
   margin-bottom: 105px;
 }
 
+<<<<<<< HEAD
+=======
 .btn_2 {
-  display: inline-block;
-  padding: 25px 45px;
-  background-color: #444a9e;
-  font-size: 16px;
-  color: #222;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  text-transform: capitalize;
-  border: 1px solid transparent;
-  border-radius: 25px;
-  line-height: 15px;
-  margin-bottom: 105px;
+    display: inline-block;
+    padding: 25px 45px;
+    background-color: #444a9e;
+    font-size: 16px;
+    color: #222;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-transform: capitalize;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    line-height: 15px;
+    margin-bottom: 105px
 }
 .btn_3 {
-  display: inline-block;
-  padding: 25px 45px;
-  background-color: #a7aed9;
-  font-size: 16px;
-  color: #222;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  text-transform: capitalize;
-  border: 1px solid transparent;
-  border-radius: 25px;
-  line-height: 15px;
-  margin-bottom: 105px;
+    display: inline-block;
+    padding: 25px 45px;
+    background-color: #a7aed9;
+    font-size: 16px;
+    color: #222;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-transform: capitalize;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    line-height: 15px;
+    margin-bottom: 105px
 }
 
+
+>>>>>>> b0f5b061f9ad6d443f826d5c4c6de4818d1b684e
 /* line 35, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_button.scss */
 
 .btn_1:hover {
@@ -4824,26 +4828,19 @@ address a:hover {
   text-decoration: None;
 }
 .btn_2:hover {
-  color: #fff !important;
-  background-color: #d14624;
+    color: #fff !important;
+    background-color: #d14624;
 }
 
 .btn_3:hover {
-  color: #fff !important;
-  background-color: #fc0303;
+    color: #fff !important;
+    background-color: #fc0303;
 }
 
 @media (max-width: 576px) {
+<<<<<<< HEAD
   /* line 24, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_button.scss */
   .btn_1 {
-    padding: 10px 30px;
-    margin-top: 25px;
-  }
-  .btn_2 {
-    padding: 10px 30px;
-    margin-top: 25px;
-  }
-  .btn_3 {
     padding: 10px 30px;
     margin-top: 25px;
   }
@@ -4855,14 +4852,6 @@ address a:hover {
     padding: 10px 30px;
     margin-top: 30px;
   }
-  .btn_2 {
-    padding: 10px 30px;
-    margin-top: 30px;
-  }
-  .btn_3 {
-    padding: 10px 30px;
-    margin-top: 30px;
-  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4871,12 +4860,54 @@ address a:hover {
     padding: 10px 30px;
     margin-top: 30px;
   }
-  .btn_2 {
-    padding: 10px 30px;
-    margin-top: 30px;
-  }
-  .btn_3 {
-    padding: 10px 30px;
-    margin-top: 30px;
-  }
+=======
+    /* line 24, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_button.scss */
+    .btn_1 {
+        padding: 10px 30px;
+        margin-top: 25px;
+    }
+    .btn_2 {
+        padding: 10px 30px;
+        margin-top: 25px;
+    }
+    .btn_3 {
+        padding: 10px 30px;
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 24, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_button.scss */
+    .btn_1 {
+        padding: 10px 30px;
+        margin-top: 30px;
+    }
+    .btn_2 {
+        padding: 10px 30px;
+        margin-top: 30px;
+    }
+    .btn_3 {
+        padding: 10px 30px;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 24, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_button.scss */
+    .btn_1 {
+        padding: 10px 30px;
+        margin-top: 30px;
+    }
+     .btn_2 {
+        padding: 10px 30px;
+        margin-top: 30px;
+    }
+     .btn_3 {
+        padding: 10px 30px;
+        margin-top: 30px;
+    }
+
+
+
+>>>>>>> b0f5b061f9ad6d443f826d5c4c6de4818d1b684e
 }
