@@ -1792,7 +1792,6 @@ img.pull-right {
 .ts-experiences {
   padding: 0;
   overflow: hidden;
-  background: #3b1d82;
 }
 .ts-experiences .exp-img {
   min-height: 501px;
@@ -1823,7 +1822,7 @@ img.pull-right {
 }
 
 .ts-exp-wrap {
-  background: #1c1a4f;
+  /*background: black;*/
   min-height: 480px;
   position: relative;
 }
@@ -1834,7 +1833,7 @@ img.pull-right {
   width: 100%;
   height: 100%;
   content: '';
-  background: url(../images/shap/cta_bg.png) no-repeat 100% / cover;
+  /*background: ;*/
 }
 .ts-exp-wrap:after {
   position: absolute;
@@ -1843,7 +1842,7 @@ img.pull-right {
   width: 100%;
   height: 100%;
   content: '';
-  background-image: -webkit-gradient(
+  /*background-image: -webkit-gradient(
     linear,
     left top,
     right top,
@@ -1851,8 +1850,8 @@ img.pull-right {
     color-stop(51%, #8d0b93),
     color-stop(100%, #ff0066),
     to(#ff057c)
-  );
-  background-image: -webkit-linear-gradient(
+  );*/
+  /*background-image: -webkit-linear-gradient(
     left,
     #321575 0%,
     #8d0b93 51%,
@@ -1873,7 +1872,7 @@ img.pull-right {
     #ff0066 100%,
     #ff057c 100%
   );
-  opacity: 0.302;
+  opacity: 0.302;*/
 }
 .ts-exp-wrap .ts-exp-content {
   max-width: 560px;
