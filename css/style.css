@@ -4769,6 +4769,7 @@ address a:hover {
 }
 .socialtext {
   -webkit-transform: scale(0.8);
+  font-style: normal;
   color: #e9e0e0;
 }
 .btn_1 {
