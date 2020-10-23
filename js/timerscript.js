@@ -1,8 +1,8 @@
 var ringer = {
   //countdown_to:
-  countdown_to: "10/23/2020",
+  countdown_to: "11/15/2020",
   rings: {
-    'DAYS': { 
+    'DAYS': {
       s: 86400000, // mseconds in a day,
       max: 365
     },
@@ -24,25 +24,25 @@ var ringer = {
   r_size: 100, // px
   r_thickness: 2, // px
   update_interval: 11, // ms
-    
-    
+
+
   init: function(){
-   
+
     $r = ringer;
-    $r.cvs = document.getElementById("myCanvas"); 
-    
-    $r.size = { 
-      w: ($r.r_size + $r.r_thickness) * $r.r_count + ($r.r_spacing*($r.r_count-1)), 
-      h: ($r.r_size + $r.r_thickness) 
+    $r.cvs = document.getElementById("myCanvas");
+
+    $r.size = {
+      w: ($r.r_size + $r.r_thickness) * $r.r_count + ($r.r_spacing*($r.r_count-1)),
+      h: ($r.r_size + $r.r_thickness)
     };
-    
 
 
-    $r.cvs.setAttribute('width',$r.size.w);           
+
+    $r.cvs.setAttribute('width',$r.size.w);
     $r.cvs.setAttribute('height',$r.size.h);
     $r.ctx = $r.cvs.getContext('2d');
     $(document.getElementById("timerbody")).append($r.cvs);
-    $r.cvs = $($r.cvs);    
+    $r.cvs = $($r.cvs);
     $r.ctx.textAlign = 'center';
     $r.actual_size = $r.r_size + $r.r_thickness;
     $r.countdown_to_time = new Date($r.countdown_to).getTime();
@@ -52,12 +52,12 @@ var ringer = {
   ctx: null,
   go: function(){
     var idx=0;
-    
+
     $r.time = (new Date().getTime()) - $r.countdown_to_time;
-    
-    
-    for(var r_key in $r.rings) $r.unit(idx++,r_key,$r.rings[r_key]);      
-    
+
+
+    for(var r_key in $r.rings) $r.unit(idx++,r_key,$r.rings[r_key]);
+
     setTimeout($r.go,$r.update_interval);
   },
   unit: function(idx,label,ring) {
@@ -65,17 +65,17 @@ var ringer = {
     value = parseFloat($r.time/ring_secs);
     $r.time-=Math.round(parseInt(value)) * ring_secs;
     value = Math.abs(value);
-    
+
     x = ($r.r_size*.5 + $r.r_thickness*.5);
     x +=+(idx*($r.r_size+$r.r_spacing+$r.r_thickness));
     y = $r.r_size*.5;
     y += $r.r_thickness*.5;
 
-    
+
     // calculate arc end angle
     var degrees = 360-(value / ring.max) * 360.0;
     var endAngle = degrees * (Math.PI / 180);
-    
+
     $r.ctx.save();
 
     $r.ctx.translate(x,y);
@@ -87,24 +87,24 @@ var ringer = {
     $r.ctx.arc(0,0,$r.r_size/2,0,2 * Math.PI, 2);
     $r.ctx.lineWidth =$r.r_thickness;
     $r.ctx.stroke();
-   
+
     // second circle
     $r.ctx.strokeStyle = "rgba(253, 128, 1, 0.9)";
     $r.ctx.beginPath();
     $r.ctx.arc(0,0,$r.r_size/2,0,endAngle, 1);
     $r.ctx.lineWidth =$r.r_thickness;
     $r.ctx.stroke();
-    
+
     // label
     $r.ctx.fillStyle = "#ffffff";
-   
+
     $r.ctx.font = '12px Helvetica';
     $r.ctx.fillText(label, 0, 23);
-    $r.ctx.fillText(label, 0, 23);   
-    
+    $r.ctx.fillText(label, 0, 23);
+
     $r.ctx.font = 'bold 40px Helvetica';
     $r.ctx.fillText(Math.floor(value), 0, 10);
-    
+
     $r.ctx.restore();
   }
 }
