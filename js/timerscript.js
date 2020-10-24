@@ -14,10 +14,6 @@ var ringer = {
       s: 60000, // mseconds per minute
       max: 60
     },
-    'SECONDS': {
-      s: 1000,
-      max: 60
-    },
    },
   r_count: 5,
   r_spacing: 10, // px
