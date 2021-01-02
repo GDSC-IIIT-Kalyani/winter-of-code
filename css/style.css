@@ -29,6 +29,7 @@
 18.  about area
 19.  faq area
 20.  404
+21. Avatar for speakers
 */
 /*
 	Template Name: Exhibit -  Conference & Event HTML Template
@@ -4039,59 +4040,7 @@ blockquote:before {
   color: #222222;
 }
 
-/*================================
-faq-item
-====================================*/
-.faq-item .faq-list {
-  margin-bottom: 20px;
-}
-.faq-item .faq-list h4 {
-  font-size: 16px;
-  margin-bottom: 0px;
-}
-.faq-item .faq-list h4 a {
-  display: block;
-  background: transparent;
-  width: 100%;
-  text-align: left;
-  border: 1px solid #e5e5e5;
-  color: #101010;
-  text-transform: capitalize;
-  position: relative;
-  padding: 0 20px;
-  height: 60px;
-  line-height: 60px;
-  border-radius: 0;
-  -webkit-border-radius: 0;
-  -ms-border-radius: 0;
-}
-.faq-item .faq-list h4 a:hover {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.faq-item .faq-list h4 a:before {
-  position: absolute;
-  right: 20px;
-  top: 0;
-  font-size: 12px;
-  content: "\e94c";
-  font-family: "iconfont";
-}
-.faq-item .faq-list h4 a.collapsed:before {
-  content: "\e94d";
-}
-.faq-item .faq-list h4 a[aria-expanded="true"] {
-  background: #e7015e;
-  color: #fff;
-  border-color: #e7015e;
-}
-.faq-item .faq-list .panel-collapse {
-  color: #fff;
-  padding: 0 20px 20px;
-}
-.faq-item .faq-list .panel-collapse.show {
-  background: #e7015e;
-}
+
 
 .widget {
   margin-bottom: 50px;
