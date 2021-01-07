@@ -1,0 +1,102 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  *zoom: 1;
+  font-family: "Open Sans", "Helvetica", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* Sponsors Footer */
+
+.sponsorsFooter {
+  width: 100%;
+  height: auto;
+  padding: 40px 0 10px;
+  z-index: 14;
+  margin-top: 0px;
+  z-index: 1 !important;
+  text-align: center !important;
+  z-index: 99;
+}
+
+.sponsorsFooter h1 {
+  font-weight: 300 !important;
+  color: white !important;
+  font-size: 45px;
+}
+.sponsorsFooter h1 > strong { font-weight: 700 !important;}
+
+.sponsorsFooter img {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  height: auto;
+  vertical-align: middle;
+  max-width: 400px;
+}
+
+.sponsorsFooter ul {
+  padding: 0;
+  margin: 15px 0 0 0;
+  list-style: none;
+  display: block;
+}
+
+.sponsorsFooter ul.enter > span:not(.hover) {
+  opacity: .1;
+}
+
+.sponsorsFooter ul.enter > span.hover {
+  opacity: 1;
+  box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, .1), inset 1px 0 0 0 rgba(0, 0, 0, .1);
+}
+
+.sponsorsFooter ul span {
+  display: inline !important;
+  background: white;
+  word-break: break-all;
+  word-wrap: break-word;
+  margin: 0px;
+  padding: 26px 0;
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+  -ms-transition: opacity 0.25s ease;
+  -o-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+
+.sponsorsFooter ul span,
+.sponsorsFooter ul span li > a {
+  cursor: default !important;
+  border: none !important;
+  outline: 0 !important;
+  text-decoration: none !important;
+}
+
+.sponsorsFooter ul li {
+  margin: 35px 16px 0px;
+  display: inline-block;
+}
+
+
+@media(max-width: 750px) {
+  .pforsponsor {
+    margin-left:-200px;
+    margin-top: -120px;
+    max-width: 400px;
+    width: 400px;
+    max-height: 240px;
+    height: 240px;
+    box-shadow: 2px 3px 0 0 rgba(0, 0, 0, .2), 0px -240px 0 0 rgba(0, 0, 0, .3), 0px -480px 0 0 rgba(0, 0, 0, .3);
+  }
+  .sponsorsFooter img { max-width: 70px; }
+  .sponsorsFooter ul li {
+    margin: 15px 5px 0px;
+  }
+}
