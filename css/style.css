@@ -4729,6 +4729,7 @@ address a:hover {
 .btn_1 {
   display: inline-block;
   padding: 25px 45px;
+  font-weight: bold;
   background-color: #e7015e;
   font-size: 16px;
   color: #222;
