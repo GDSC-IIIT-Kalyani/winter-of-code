@@ -23,3 +23,35 @@
   font-family: 'Raleway', sans-serif;
 color: #000;		
 }
+.avatar {
+  vertical-align: middle;
+  width: 160px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+
+
+.avatarcommunitywebwiz {
+  padding-top: 50px;
+  vertical-align: middle;
+  width: 250px;
+  height: 300px;
+  
+}
+
+.avatarcommunitydsc {
+  padding-top: 50px;
+  vertical-align: middle;
+  width: 400px;
+  height: 200px;
+}
+
+
+
+.sponsorimage {
+  vertical-align: middle;
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+}
